@@ -30,9 +30,8 @@ fn part_1(dimensions: &mut Vec<Vec<u32>>) {
 fn extract_dimensions(contents: &String) -> Vec<Vec<u32>> {
     let dimensions = contents
         .lines()
-        .map(|lines| {
-            lines
-                .split('x')
+        .map(|line| {
+            line.split('x')
                 .map(|dimension| dimension.parse::<u32>().unwrap())
                 .collect::<Vec<u32>>()
         })

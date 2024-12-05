@@ -1,14 +1,8 @@
 fn bracket_to_change(bracket: char) -> i32 {
     match bracket {
-        '(' => {
-            return 1;
-        }
-        ')' => {
-            return -1;
-        }
-        _ => {
-            return 0;
-        }
+        '(' => 1,
+        ')' => -1,
+        _ => 0,
     }
 }
 
