@@ -6,7 +6,7 @@ fn bracket_to_change(bracket: char) -> i32 {
     }
 }
 
-fn part_1(brackets: &String) {
+fn part1(brackets: &String) {
     let mut floor = 0;
     for bracket in brackets.chars() {
         floor += bracket_to_change(bracket);
@@ -14,7 +14,7 @@ fn part_1(brackets: &String) {
     println!("Part 1: {floor}");
 }
 
-fn part_2(brackets: &String) {
+fn part2(brackets: &String) {
     let mut floor = 0;
     let mut counter = 1;
     for bracket in brackets.chars() {
@@ -28,6 +28,6 @@ fn part_2(brackets: &String) {
 }
 
 pub fn day_1(brackets: &String) {
-    part_1(&brackets);
-    part_2(&brackets);
+    part1(&brackets);
+    part2(&brackets);
 }

@@ -1,6 +1,4 @@
 [package]
-name = "year2015"
+name = "aoc"
 version = "0.1.0"
 edition = "2021"
-
-[dependencies]
