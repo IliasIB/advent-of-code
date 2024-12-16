@@ -55,7 +55,7 @@ fn year2024(day: &u8, contents: &String) {
         13 => year2024::day13::day13(contents),
         14 => year2024::day14::day14(contents),
         15 => year2024::day15::day15(contents),
-        // 16 => year2024::day16::day16(contents),
+        16 => year2024::day16::day16(contents),
         // 17 => year2024::day17::day17(contents),
         // 18 => year2024::day18::day18(contents),
         // 19 => year2024::day19::day19(contents),
