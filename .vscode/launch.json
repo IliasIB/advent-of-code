@@ -39,8 +39,8 @@
                 }
             },
             "args": [
-                "2024",
-                "19",
+                "${input:enterYear}",
+                "${input:enterDay}"
             ],
             "cwd": "${workspaceFolder}"
         },
@@ -62,6 +62,20 @@
             },
             "args": [],
             "cwd": "${workspaceFolder}"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "enterYear",
+            "type": "promptString",
+            "description": "Enter year",
+            "default": "2024"
+        },
+        {
+            "id": "enterDay",
+            "type": "promptString",
+            "description": "Enter day",
+            "default": "1"
         }
     ]
 }
