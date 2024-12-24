@@ -62,8 +62,8 @@ fn year2024(day: &u8, contents: &String) {
         20 => year2024::day20::day20(contents),
         21 => year2024::day21::day21(contents),
         22 => year2024::day22::day22(contents),
-        // 23 => year2024::day23::day23(contents),
-        // 24 => year2024::day24::day24(contents),
+        23 => year2024::day23::day23(contents),
+        24 => year2024::day24::day24(contents),
         // 25 => year2024::day25::day25(contents),
         _ => panic!("Given day does not exist"),
     }
